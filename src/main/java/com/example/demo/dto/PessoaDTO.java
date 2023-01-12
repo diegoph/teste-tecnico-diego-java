@@ -10,4 +10,12 @@ public class PessoaDTO {
     private String nome;
     private boolean isFuncionario;
 
+    public boolean getIsFuncionario() {
+        return isFuncionario;
+    }
+
+    public void setIsFuncionario(boolean isFuncionario) {
+        this.isFuncionario = isFuncionario;
+    }
+
 }

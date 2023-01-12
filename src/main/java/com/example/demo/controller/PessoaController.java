@@ -19,7 +19,7 @@ public class PessoaController {
     public ResponseEntity<Pessoa> create(@RequestBody PessoaDTO dto) {
         Pessoa pessoa = new Pessoa();
         pessoa.setNome(dto.getNome());
-        pessoa.setFuncionario(dto.isFuncionario());
+        pessoa.setFuncionario(dto.getIsFuncionario());
         pessoaService.save(pessoa);
         return ResponseEntity.ok(pessoa);
     }
