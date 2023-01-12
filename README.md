@@ -2,7 +2,7 @@
 
 Requisitos:
 * Java 17
-* PostgreSQL rodando na porta 5432 e um database chamado "teste-diego" criado
+* PostgreSQL com usuario "postgres" e senha "123456" rodando na porta 5432 e um database chamado "teste-diego" criado
 
 Acessar a pasta do projeto e rodar o comando:
 
